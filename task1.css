@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+#main{
+background-color:rgba(177, 230, 112, 0.75);
+    padding:30px;
+    border-radius: 5px;
+}
+#web,#ml,#cyber{
+    border-radius: 15px;
+    border-bottom:10px solid red;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+}
+p{
+    font-size: large;
+} 
+#detials{
+    background-color: rgba(40, 100, 239, 0.75);
+    border-radius: 5px;
+}
+
+#addr,#contacts,#mail{
+    font-style: italic;
+    color:rgba(40, 100, 239, 0.75);
+    box-shadow: 10px 10px 5px rgba(14, 4, 130, 0.75);
+    border-radius: 10px;
+}
+#main1{
+    background:blueviolet;
+    border-radius: 5px;
+    padding:30px;
+}
+#d1,#d2,#d3{
+    border-radius: 30px;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+#d1:hover{
+    box-shadow: 10px 10px 10px yellow; 
+    background-color: rgba(35, 204, 114, 0.75);
+}
+#d2:hover{
+box-shadow: 10px 10px 10px yellow; 
+    background-color: rgba(35, 204, 114, 0.75);
+}
+#d3:hover{
+box-shadow: 10px 10px 10px yellow; 
+background-color: rgba(35, 204, 114, 0.75);
+}
+b{
+width:100%;
+border-radius: 10px;
+}
+b:hover{ 
+    background-color: rgba(35, 204, 114, 0.75);
+}
+#web{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+#ml{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+#cyber{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+ #web:hover {
+    top:-10px;
+    box-shadow: 10px 10px 10px yellow;
+    background-color: burlywood;
+}
+#ml:hover{
+    top:-10px;
+    box-shadow: 10px 10px 10px yellow;
+    background-color: burlywood;
+}
+#cyber:hover{
+    top:-10px;
+    box-shadow: 10px 10px 10px yellow;
+    background-color: burlywood;
+}
+#menu{
+    border-radius:10px;
+    background-color: greenyellow;
+    font-size: larger;
+    border:10px double red;
+    padding:35px;
+    color:darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#login:hover{
+    border-radius: 12px;
+    background-color: crimson;
+}
+#signup:hover{
+    border-radius: 12px;
+    background-color: crimson;
+}
+button{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+    border-radius: 5px;
+    font-size: larger;
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+
+#x{
+    background-color: cadetblue; 
+    border-radius: 10px; 
+    font-style: italic; 
+    font-size: medium; 
+    float:left;
+    width:50%;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+#x:hover{
+    top:-1px;
+    box-shadow: 10px 10px 10px yellow;
+    background-color: burlywood;
+}
+#main1{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+#main1:hover{
+    top:-10px;
+    box-shadow: 10px 10px 10px yellow;
+    background-color: rgb(51, 249, 229);
+}
+#head{
+    padding:500px;
+    color:crimson;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: larger;
+}
